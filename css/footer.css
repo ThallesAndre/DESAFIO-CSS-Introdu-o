@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+:root{
+    --color-red: #F03C42;
+    --color-blue:#222374;
+    --color-grey: #CCCCCC;
+    --color-black: #000000;
+    --color-write: #fff;
+}
+
+footer{
+    background-color: var(--color-black);
+    width: 1200px;
+    height: 180px;
+    margin: 0 auto;
+    padding: 60px;
+    width: 100%;
+    
+}
+footer address{
+    color: var(--color-write);
+
+}
+.div-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div-footer2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   padding: 20px;
+}
+img{
+    width: 30px;
+height: 30px;
+}
+
